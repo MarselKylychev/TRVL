@@ -1,0 +1,189 @@
+@media (max-width:1200px) {
+	.container {
+		max-width: 1150px;
+	}
+
+	.hero__title {
+		font-size: 130px;
+		margin-bottom: 60px;
+	}
+
+	.travel {
+		padding: 116px 0 147px;
+	}
+
+	.footer__logo {
+		margin-left: 375px;
+	}
+}
+
+@media (max-width:1100px) {
+	.container {
+		max-width: 1040px;
+	}
+
+	.grid__cards {
+		column-gap: 82px;
+	}
+
+	.subscribe__desc {
+		max-width: 595px;
+	}
+
+	.footer__logo {
+		margin-left: 332px;
+	}
+}
+
+@media (max-width:820px) {
+	.container {
+		max-width: 611px;
+	}
+
+	.hero__title {
+		font-size: 90px;
+		line-height: 110px;
+		margin-bottom: 143px;
+	}
+
+	.hero__desc {
+		font-size: 26px;
+		line-height: 30px;
+	}
+
+	.travel {
+		padding: 30px 0 100px;
+	}
+
+	.travel__title {
+		margin-bottom: 37px;
+	}
+
+	.travel__desc {
+		width: 591px;
+		margin-bottom: 60px;
+	}
+
+	.grid__cards {
+		grid-template-columns: 1fr;
+	}
+
+	.footer__logo {
+		margin-left: 190px;
+	}
+
+	.footer__logo {
+		margin-left: 190px;
+	}
+
+	.footer__link {
+		margin-left: 160px;
+	}
+}
+
+@media (max-width: 340px) {
+	.container {
+		max-width: 312px;
+	}
+
+	.header {
+		padding: 23px 0 0 24px;
+	}
+
+	.hero__title {
+		font-size: 40px;
+		line-height: 49px;
+		margin-bottom: 47px;
+	}
+
+	.hero__desc {
+		font-size: 18px;
+		line-height: 22px;
+		margin-bottom: 47px;
+	}
+
+	.travel {
+		padding: 30px 0 67px;
+	}
+
+	.travel__title {
+		font-size: 28px;
+		line-height: 34px;
+		margin-bottom: 28px;
+	}
+
+	.travel__desc {
+		width: 292px;
+		font-size: 16px;
+		line-height: 20px;
+	}
+
+	.card__img {
+		grid-template-areas: "post-1"
+			"post-2"
+			"post-3";
+	}
+
+	.card__img img {
+		width: 292px;
+	}
+
+	.post-1 {
+		border-radius: 44px;
+	}
+
+	.post-2 {
+		border-radius: 44px;
+	}
+
+	.post-3 {
+		border-radius: 44px;
+	}
+
+	.subscribe {
+		padding: 69px 0;
+	}
+
+	.subscribe__title {
+		font-size: 28px;
+		line-height: 34px;
+	}
+
+	.subscribe__desc {
+		width: 292px;
+		font-size: 16px;
+		line-height: 20px;
+	}
+
+	.subscribe__input {
+		width: 305px;
+	}
+
+	.subscribe__btn {
+		padding: 21px 105px;
+	}
+
+	.footer__content svg {
+		margin-bottom: 30px;
+	}
+
+	.footer__content {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.footer__info {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.footer__logo {
+		margin-left: 0;
+		margin-bottom: 30px;
+	}
+
+	.footer__link {
+		margin-left: 0;
+	}
+
+}

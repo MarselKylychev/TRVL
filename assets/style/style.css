@@ -224,15 +224,11 @@ input {
 .footer__content {
 	display: flex;
 	align-items: center;
-	text-align: center;
+	justify-content: space-between;
 }
 
 .footer__content svg:not(:last-child) {
 	margin-right: 22px;
-}
-
-.footer__svg {
-	display: flex;
 }
 
 .footer__info {
@@ -245,7 +241,7 @@ input {
 	font-size: 28px;
 	line-height: 34px;
 	letter-spacing: 0.1em;
-	margin-left: 562px;
+	margin-left: 67px;
 	color: #FFFFFF;
 }
 
@@ -254,8 +250,11 @@ input {
 	font-size: 16px;
 	line-height: 20px;
 	letter-spacing: 0.1em;
-	margin-left: 490px;
 	color: #FFFFFF;
+}
+
+.footer__content-sm {
+	display: none;
 }
 
 /* FOOTER STYLE END */
